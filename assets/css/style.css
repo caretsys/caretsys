@@ -1634,7 +1634,7 @@ section {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
     .col-md-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 45%;
@@ -1644,8 +1644,8 @@ section {
 
 @media (max-width: 524px) {
     .col-md-6 {
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
+        -ms-flex: 0 0 80%;
+        flex: 0 0 80%;
+        max-width: 80%;
     }
 }

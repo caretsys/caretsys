@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base target="_blank">
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+     
+
+     
+      #myInput {
+        background-image: url('https://www.w3schools.com/css/searchicon.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        border: 1px solid #ddd;
+        margin-bottom: 12px;
+      }
+
+      #myTable {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid #ddd;
+        font-size: 18px;
+        /* background: #fff; */
+        height: 200px;
+        overflow-y: scroll;
+      }
+
+      #myTable th,
+      #myTable td {
+        text-align: left;
+        padding: 12px;
+      }
+
+      #myTable tr {
+        border-bottom: 1px solid #ddd;
+      }
+
+      #myTable tr.header,
+      #myTable tr:hover {
+        background-color: #f1f1f1;
+      }
+      
+      .my-custom-scrollbar {
+      position: relative;
+      height: 400px;
+      overflow: auto;
+      margin-bottom: 30px;
+      }
+.table-wrapper-scroll-y {
+display: block;
+}
+.header-image{
+  width:200px;
+  object-fit: cover;
+}
+.info{
+  margin-top:20px;
+  background:#098f999a;
+  padding:10px;
+  border-radius: 10px;
+  color:white;
+}
+
+    </style>
+  </head>
+  <body class="container mt-5">
+    
+   
+<!--     
+   <div class="container">
+  <div class="row">
+    <div class="col-md">
+        <img  class="header-image" src="https://i.imgur.com/6xKtwZY.png" alt="">
+    </div>
+    <div class="col-md">
+               <img class="header-image" src="https://i.imgur.com/uf1P47S.png" alt="" >
+
+
+    </div>
+    -->
+   
+  <!-- </div>
+</div> -->
+
+<div class="branding" style="display: flex; justify-content: center; margin-bottom: 30px;">
+  <div class="pr-5"><img width="200" src="https://i.imgur.com/6xKtwZY.png"></div>
+  <div class="pr-5"><img width="200" src="https://i.imgur.com/uf1P47S.png"></div>
+</div>
+<hr />
+    <h2>7-Day Python Bootcamp Certification</h2>
+
+    <input
+      class="mt-4 mb-2"
+      type="text"
+      id="myInput"
+      onkeyup="myFunction()"
+      placeholder="Search your name.."
+      title="Type in a name"
+    />
+    <div class="table-wrapper-scroll-y my-custom-scrollbar">
+    <table id="myTable" style="margin-bottom: 50px;">
+      <tr class="header">
+        <th style="width: 60%">Name</th>
+        <th style="width: 40%">Certificate Link</th>
+      </tr>
+      <tr>
+        <td>Arpan Acharya</td>
+        <td>
+          <a href="certificates/aAcharya.pdf"
+            >Download <i class="far fa-arrow-alt-circle-down"></i
+          ></a>
+        </td>
+        <!-- https://caretsys.tech/certificates/aAcharya.pdf -->
+      </tr>
+      <tr>
+        <td>Beena Pun</td>
+        <td>
+          <a href="certificates/bPun.pdf">Download <i class="far fa-arrow-alt-circle-down"></i></a>
+        </td>
+        <!-- https://caretsys.tech/certificates/bPun.pdf</tr> -->
+      </tr>
+
+      <tr>
+        <td>Binayak Shrestha</td>
+        <td>
+          <a href="certificates/bShrestha.pdf">Download <i class="far fa-arrow-alt-circle-down"></i></a>
+        </td>
+        <!-- https://caretsys.tech/certificates/bShrestha.pdf -->
+      </tr>
+      <tr>
+        <td>Dikshanta Luitel</td>
+        <td>
+          <a href="certificates/dLuitel.pdf">Download <i class="far fa-arrow-alt-circle-down"></i></a>
+        </td>
+        <!-- https://caretsys.tech/certificates/dLuitel.pdf -->
+      </tr>
+      <tr>
+        <td>Kshitiz Dumre</td>
+        <td>
+          <a href="certificates/kDumre.pdf">Download <i class="far fa-arrow-alt-circle-down"></i></a>
+        </td>
+        <!-- https://caretsys.tech/certificates/kDumre.pdf -->
+      </tr>
+      <tr>
+        <td>Migeena Nyachhyon</td>
+        <td>
+          <a href="certificates/mNyachhyon.pdf">Download <i class="far fa-arrow-alt-circle-down"></i></a>
+        </td>
+        <!-- https://caretsys.tech/certificates/mNyachhyon.pdf -->
+      </tr>
+      <tr>
+        <td>Pratima Pokharel</td>
+        <td>
+          <a href="certificates/pPokhrel.pdf"
+            >Download <i class="far fa-arrow-alt-circle-down"></i
+          ></a>
+        </td>
+      </tr>
+      <tr>
+        <td>Ruchee Bhatta</td>
+        <td>
+          <a href="certificates/rBhatta.pdf">Download <i class="far fa-arrow-alt-circle-down"></i></a>
+        </td>
+      </tr>
+
+      <tr>
+      
+        <td>Saurab Gyawali</td>
+        <td>
+          <a href="certificates/sGyawali.pdf">Download <i
+                class="far fa-arrow-alt-circle-down"></i></a>
+        </td>
+      </tr>
+      
+       <tr>
+        <td>Shreya Kadel</td>
+        <td>
+          <a href="certificates/sKadel.pdf">Download <i class="far fa-arrow-alt-circle-down"></i></a>
+        </td>
+      </tr>
+
+
+       <tr>
+        <td>Sanya Parajuli</</td>
+        <td>
+          <a href="certificates/sParajuli.pdf">Download <i class="far fa-arrow-alt-circle-down"></i></a>
+        </td>
+      </tr>
+
+      
+      <tr>
+        <td>Sandeep Sharma</td>
+        <td>
+          <a href="certificates/sSharma.pdf">Download <i
+                class="far fa-arrow-alt-circle-down"></i></a>
+          </td>
+       <tr>
+
+        
+        <td>Saisagun Thapa</td>
+        <td>
+          <a href="certificates/sThapa.pdf">Download <i class="far fa-arrow-alt-circle-down"></i></a>
+        </td>
+      </tr>
+      
+    </table>
+    </div>
+
+    <div class="info">
+      <h6>
+        Note:
+      </h6>
+      <p>
+        Contact <a style="text-decoration: underline; color:white;" href="mailto:nepshirts@caretsys.tech">nepshirts@caretsys.tech</a> if your name/certificate is not listed here or something is wrong in the certificate.
+      </p>
+
+    </div>
+    <script>
+      function myFunction() {
+        var input, filter, table, tr, td, i, txtValue
+        input = document.getElementById('myInput')
+        filter = input.value.toUpperCase()
+        table = document.getElementById('myTable')
+        tr = table.getElementsByTagName('tr')
+        for (i = 0; i < tr.length; i++) {
+          td = tr[i].getElementsByTagName('td')[0]
+          if (td) {
+            txtValue = td.textContent || td.innerText
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              tr[i].style.display = ''
+            } else {
+              tr[i].style.display = 'none'
+            }
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
